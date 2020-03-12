@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.suo
+*.vcxproj
+*.filters
+*.user
+ConsoleApplication1/.vs/
