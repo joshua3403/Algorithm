@@ -55,3 +55,6 @@ dkms.conf
 *.filters
 *.user
 ConsoleApplication1/.vs/
+DataStructure,Algorithm/.vs/ConsoleApplication1/v16/
+DataStructure,Algorithm/.vs/
+DataStructure,Algorithm/x64/Debug/
