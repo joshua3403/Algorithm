@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{508ea9ee-87b2-4da1-b713-dd1ec21dcd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\List">
+      <UniqueIdentifier>{e111899d-a7f6-4d7e-9713-b58f77a10ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tree">
+      <UniqueIdentifier>{f4f684d1-6db8-4da3-accb-f1391496c97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Stack">
+      <UniqueIdentifier>{a59cdcde-74ed-4d6e-8012-58a52c782838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\List">
+      <UniqueIdentifier>{d5a2bb7d-aeb7-4087-84c3-457f2339e1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Tree">
+      <UniqueIdentifier>{c75a9cac-f4af-4d80-b9e6-67c7bcf57edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Hash">
+      <UniqueIdentifier>{34450247-f771-43c6-98b4-a8417cf5f0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Hash">
+      <UniqueIdentifier>{e8d0f14f-ef2e-410e-a7b8-a531cbdaf45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Graph">
+      <UniqueIdentifier>{6fca10fc-b759-48b3-aba0-d713abdd9aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graph">
+      <UniqueIdentifier>{42ed3c87-7d7d-4d9d-b2b0-5e138220a0f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayStack.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLinkedList.cpp">
+      <Filter>소스 파일\List</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>소스 파일\List</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListStack.cpp">
+      <Filter>소스 파일\List</Filter>
+    </ClCompile>
+    <ClCompile Include="LCRSTree.cpp">
+      <Filter>소스 파일\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="SBinaryTree.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleHashTable.cpp">
+      <Filter>소스 파일\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Chaining.cpp">
+      <Filter>소스 파일\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenAddressing.cpp">
+      <Filter>소스 파일\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphTraversal.cpp">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="TopologicalSort.cpp">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayStack.h">
+      <Filter>헤더 파일\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>헤더 파일\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLinkedList.h">
+      <Filter>헤더 파일\List</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>헤더 파일\List</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListStack.h">
+      <Filter>헤더 파일\List</Filter>
+    </ClInclude>
+    <ClInclude Include="LCRSTree.h">
+      <Filter>헤더 파일\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="SBinaryTree.h">
+      <Filter>헤더 파일\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleHashTable.h">
+      <Filter>헤더 파일\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Chaining.h">
+      <Filter>헤더 파일\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenAddressing.h">
+      <Filter>헤더 파일\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>헤더 파일\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphTraversal.h">
+      <Filter>헤더 파일\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="TopologicalSort.h">
+      <Filter>헤더 파일\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="MST.h">
+      <Filter>헤더 파일\Graph</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -43,18 +43,6 @@
 *.pdb
 
 # Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-*.suo
-*.vcxproj
-*.filters
-*.user
-ConsoleApplication1/.vs/
 DataStructure,Algorithm/.vs/ConsoleApplication1/v16/
 DataStructure,Algorithm/.vs/
 DataStructure,Algorithm/x64/Debug/
